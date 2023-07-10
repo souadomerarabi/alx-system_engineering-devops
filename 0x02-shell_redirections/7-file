@@ -1,0 +1,3 @@
+#!/bin/bash
+cwd stare
+ls -la > ls_cwd_content
