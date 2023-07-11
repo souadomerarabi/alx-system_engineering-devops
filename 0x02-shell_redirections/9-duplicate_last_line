@@ -1,3 +1,0 @@
-#!/bin/bash
-duplicate bta3 di
-tail -n 1 iacta >> iacta
