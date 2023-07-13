@@ -7,4 +7,4 @@ filename="\\\*\\\\\\'\"Best School\"\\'\\\\\\*\\\$\\?\\\*\\\*\\\*\\\*\\\*:\\)"
 touch -- "$filename"
 
 # Write the text to the file
-echo "Best School" > "$filename"
+echo "Best School\n" > "$filename"
