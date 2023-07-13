@@ -1,2 +1,10 @@
 #!/bin/bash
-echo "Best School" > \\\*\\\\"'\"Best School\"\\'\\\\\*\$\\\?\\\*\\\*\\\*\\\*\\\*\:\)
+
+# Define filename with special characters using single quotes to preserve the literal value of all characters
+filename=$'\|| "\'Best School"\'\\*$\?\*\*\*\*\ :)'
+
+# Create the file with the special characters
+touch -- "$filename"
+
+# Write the text to the file
+echo "Best School" > "$filename"
